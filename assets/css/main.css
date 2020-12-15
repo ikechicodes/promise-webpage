@@ -99,7 +99,8 @@ input, select, textarea {
 
 	body {
 		/* background: #312450; */
-		background: #243150;
+		/* background: #243150; */
+		background: #4e5f6e;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -198,14 +199,14 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #4e83b7);
+				/* background-image: -moz-linear-gradient(to right, #5e42a6, #4e83b7);
 				background-image: -webkit-linear-gradient(to right, #5e42a6,#4e83b7);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #4e83b7);
-				background-image: linear-gradient(to right, #5e42a6, #4e83b7);
-				/* background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91); */
+				background-image: linear-gradient(to right, #5e42a6, #4e83b7); */
+				background-image: -moz-linear-gradient(to right, #476B70, #FAE2B4);
+				background-image: -webkit-linear-gradient(to right, #476B70, #FAE2B4);
+				background-image: -ms-linear-gradient(to right, #476B70, #FAE2B4);
+				background-image: linear-gradient(to right, #476B70,  #FAE2B4);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2543,17 +2544,20 @@ input, select, textarea {
 
 				.wrapper.style1 .icon.major:before {
 					/* color: #5e42a6; */
-					color: #31555e;
+					/* color: #31555e; */
+					color: #617d7d;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
 					/* color: #493382; */
+					/* color: #15333b; */
 					color: #15333b;
 				}
 
 				.wrapper.style2 .icon.major:before {
 					/* color: #5052b5; */
-					color: #98878f;
+					/* color: #98878f; */
+					color: #cdad64;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
@@ -2563,16 +2567,22 @@ input, select, textarea {
 
 				.wrapper.style3 .icon.major:before {
 					/* color: #b74e91; */
-					color: #985e6d;
+					/* color: #985e6d; */
+					color: #b9b394;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
 					/* color: #953d75; */
-					color: #d2d0ec;
+					/* color: #d2d0ec; */
+					color: #ebe0f2;
+				}
+
+				.wrapper.style4 .icon.major:before {
+					color: #db998f;
 				}
 
 /* Image */
-
+			
 	.image {
 		border-radius: 0.25em;
 		border: 0;
@@ -3255,7 +3265,8 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			/* background-color: #5e42a6; */
-			background-color: #31555e;
+			/* background-color: #31555e; */
+			background-color: #617d7d;
 		}
 
 		.wrapper.style1-alt {
@@ -3266,7 +3277,8 @@ input, select, textarea {
 		.wrapper.style2 {
 			/* background-color: #5052b5; */
 			/* background-color: #ffb041; */
-			background-color: #98878f;
+			/* background-color: #98878f; */
+			background-color: #cdad64;
 		}
 
 		.wrapper.style2-alt {
@@ -3277,12 +3289,18 @@ input, select, textarea {
 		.wrapper.style3 {
 			/* background-color: #b74e91; */
 			/* background-color: #ec8a6f; */
-			background-color: #985e6d;
+			/* background-color: #985e6d; */
+			background-color: #b9b394;
 		}
 
 		.wrapper.style3-alt {
 			/* background-color: #953d75; */
 			background-color: #ebe0f2;
+		}
+
+		.wrapper.style4 {
+			background-color: #db998f;
+			/* background-color: #985e6d; */
 		}
 
 		.wrapper.fullscreen {
@@ -3392,9 +3410,9 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #122e36;
+		background-color: #617d7d;
+		/* background-color: #122e36; */
 		/* background-color: #273c71; */
-		/* background-color: #5e42a6; */
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3549,7 +3567,8 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		/* background: #312450; */
-		background: #243150;
+		/* background: #243150; */
+		background: #4e5f6e;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3786,19 +3805,20 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				/* background: #3c2c62; */
 				/* background: #2c3e62; */
+				background: #548086;
 			}
 
 			#sidebar nav a:after {
-				/* background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91); */
-				background-image: -moz-linear-gradient(to right, #5e42a6, #4e83b7);
+				background-image: -moz-linear-gradient(to right, #476B70, #FAE2B4);
+				background-image: -webkit-linear-gradient(to right, #476B70, #FAE2B4);
+				background-image: -ms-linear-gradient(to right, #476B70, #FAE2B4);
+				background-image: linear-gradient(to right, #476B70,  #FAE2B4);
+				/* background-image: -moz-linear-gradient(to right, #5e42a6, #4e83b7);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #4e83b7);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #4e83b7);
-				background-image: linear-gradient(to right, #5e42a6, #4e83b7);
+				background-image: linear-gradient(to right, #5e42a6, #4e83b7); */
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3910,6 +3930,12 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+
+		#intro .logo{
+			padding: 0%;
+			margin: 0%;
+			display: inline-block;
+		}
 
 		#intro p {
 			font-size: 1.25em;
