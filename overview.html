@@ -11,6 +11,62 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -35,8 +91,30 @@
 						<div class="inner">
 							<h1 class="major">What Our App Looks Like</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<div class="gridContainer">
+								<div class="row">
+									<div class="column">
+									  <img src="./images/screenshots/main.png">
+									  <img src="./images/screenshots/create.png">
+									  <img src="./images/screenshots/metamask-create.png">
+									</div>
+									<div class="column">
+									  <img src="./images/screenshots/metamask-interaction.png">
+									  <img src="./images/screenshots/metamask-sign-reject.png">
+									  <img src="./images/screenshots/my-contracts-creator.png">
+									</div>
+									<div class="column">
+									  <img src="./images/screenshots/my-contracts-recipient.png">
+									  <img src="./images/screenshots/my-contracts-other.png">
+									</div>
+									<div class="column">
+									  <img src="./images/screenshots/ganache-transactions.PNG">
+									  <img src="./images/screenshots/ganache-groceries.PNG">
+									  <img src="./images/screenshots/ganache-babysitting.PNG">
+									</div>
+								  </div>
+							</div>
+		
 						</div>
 					</section>
 
