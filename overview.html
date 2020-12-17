@@ -90,8 +90,47 @@ body {
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">What Our App Looks Like</h1>
-							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
-							<div class="gridContainer">
+                            <div class="aligncenter">
+                                <div class="sub-title">Home Page</div>
+                                <span class="image fit2"><img src="images/screenshots/main.png" alt="" /></span>
+                                <div class="caption">The home page of our application gives users a brief introduction of what service our web application provides, followed by a simple button that leads to a contract creation page. At the top is the navigation bar, which navigates users to the "My Contracts" Page. The Metamask account number is conveniently displayed on the navigation bar as well to easily help them identify which Metamask account they are in.</div>
+
+                                <div class="sub-title">Contract Creation</div>
+                                <span class="image fit2"><img src="images/screenshots/create.png" alt="" /></span>
+                                <div class="caption">The contract creation page provides a form for users to quickly write their contract. The contract creator needs to provide their public key, the recipient's public key, a contract title, and the terms and conditions of the contract.</div>
+
+                                <span class="image fit2"><img src="images/screenshots/metamask-create.png" alt="" /></span>
+                                <div class="caption">Once all fields of the form are filled, the Metamask extension will pop up in the browser upon clicking the 'Submit' button to confirm the transaction.</div>
+
+                                <span class="image fit2"><img src="images/screenshots/metamask-interaction.png" alt="" /></span>
+                                <div class="caption">After the contract has been created and the transaction has been confirmed, Metamask will show the contract interaction under "Assets" or "Activity".</div>
+
+                                <span class="image fit2"><img src="images/screenshots/metamask-sign-reject.png" alt="" /></span>
+                                <div class="caption">When switching to the Metamask account of the contract recipient, the pending contracts are populated in the "My Contracts" Page that are waiting to be signed or rejected. Once the 'Sign' or 'Reject' button is clicked, Metamask will pop up once again for the user to confirm the transaction.</div>
+
+                                <div class="sub-title">My Contracts Page</div>
+                                <span class="image fit2"><img src="images/screenshots/my-contracts-creator.png" alt="" /></span>
+                                <div class="caption">Contract creators can view the contracts they created on the "My Contracts" Page under Pending. Notice that they do not have the buttons to sign or reject their own contract as they have already signed it on the contract creation page. In addition, they can view Signed and Rejected contracts under the corresponding sections.</div>
+
+                                <span class="image fit2"><img src="images/screenshots/my-contracts-recipient.png" alt="" /></span>
+                                <div class="caption">Contract recipients can also view their Pending, Signed and Rejected contracts. If they have not responded to a new contract under Pending, they will have the options to sign or reject it.</div>
+
+                                <span class="image fit2"><img src="images/screenshots/my-contracts-other.png" alt="" /></span>
+                                <div class="caption">A filtering system was implemented so that users cannot view any contracts they are not involved in.</div>
+
+                                <div class="sub-title">Ganache</div>
+                                <span class="image fit2"><img src="images/screenshots/ganache-transactions.PNG" alt="" /></span>
+                                <div class="caption">In Ganache, users can view all the transactions that were made under "Transactions".</div>
+
+                                <span class="image fit2"><img src="images/screenshots/ganache-babysitting.PNG" alt="" /></span>
+                                <div class="caption">Clicking into the first transaction, we can see the contract that was made regarding babysitting. It displays all the transaction details including the terms and conditions of the contract.</div>
+
+                                <span class="image fit2"><img src="images/screenshots/ganache-groceries.PNG" alt="" /></span>
+                                <div class="caption">Clicking into the second transaction, we can see the contract that was made regarding groceries. It displays all the transaction details including the terms and conditions of the contract.</div>
+
+                            </div>
+        
+							<!-- <div class="gridContainer">
 								<div class="row">
 									<div class="column">
 									  <img src="./images/screenshots/main.png">
@@ -113,7 +152,7 @@ body {
 									  <img src="./images/screenshots/ganache-babysitting.PNG">
 									</div>
 								  </div>
-							</div>
+							</div> -->
 		
 						</div>
 					</section>

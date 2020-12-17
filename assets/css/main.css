@@ -2607,6 +2607,37 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.sub-title {
+			display: block;
+			margin: auto;
+			width: 75%;
+			font-weight: bold;
+			color: white;
+			font-size: 24px;
+			margin-bottom: 15px;
+		}
+
+		.image.fit2 {
+			display: block;
+			margin: auto;
+			width: 80%;
+			margin-bottom: 15px;
+		}
+
+			.image.fit2 img {
+				display: block;
+				margin: auto;
+				width: 80%;
+			}
+		
+		.caption {
+			display: block;
+			margin: auto;
+			width: 60%;
+			line-height: 21px;
+			margin-bottom: 45px;
+		}
+
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
@@ -3208,6 +3239,7 @@ input, select, textarea {
 	.wrapper {
 		position: relative;
 	}
+
 		.wrapper > .inner > .list-header {
 			display: flex;
 			width: 85%;
